@@ -39,12 +39,10 @@ with mic as source:
         try:
             text=record.recognize_google(audio)
             print("you said : {}".format(text))
-            #x=(str(text)).lower()
             if((str(text)).lower() in languages.keys()):
                 source_lang=languages[(str(text)).lower()]
                 #print(source_lang)
                 googlespeak("Your source language is set to "+ (str(text)).lower() )
-                #sleep(3)
                 break
             break
         except:
@@ -63,7 +61,6 @@ with mic as source:
         try:
             text=record.recognize_google(audio)
             print("you said : {}".format(text))
-            #x=(str(text)).lower()
             if((str(text)).lower() in languages.keys()):
                 destination_lang=languages[(str(text)).lower()]
                 #print(destination_lang)
