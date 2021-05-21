@@ -1,4 +1,4 @@
-# NLPmodel_for_visuallychallenged
+# NLPmodel_for_VisuallyChallenged
 
 Project Name: NLP Model for Visually Challenged
 Develop an interface/NLP Model in Python for visually challenged 
