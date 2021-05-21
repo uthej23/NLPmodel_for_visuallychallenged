@@ -93,7 +93,7 @@ with mic as source:
             print("Unable to Understand the Input")
 
     # Saving the Transalted text into text file
-    file1= open(r'C:\Users\UTHEJ\Desktop\NLPproject\TranslatedText.txt','w') #Path
+    file1= open(r'C:\Users\UTHEJ\Desktop\NLPproject\TranslatedText.txt','w') #Select correct Path
     file1.write(translation)
     file1.close()
     googlespeak("Translation is done and the text file is saved")
@@ -147,7 +147,7 @@ with mic as source:
     
     #The body and the attachments
     message.attach(MIMEText(content_of_the_mail, 'plain'))
-    file_to_be_attached = open(r'C:\Users\UTHEJ\Desktop\NLPproject\TranslatedText.txt', 'rb') # Open the file as binary mode
+    file_to_be_attached = open(r'C:\Users\UTHEJ\Desktop\NLPproject\TranslatedText.txt', 'rb') # Select correct path
     load = MIMEBase('application', 'octate-stream')
     load.set_payload((file_to_be_attached).read())
     encoders.encode_base64(load) #encode the attachment
