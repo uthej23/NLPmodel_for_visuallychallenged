@@ -1,6 +1,6 @@
 # NLPmodel_for_visuallychallenged
 
-Project Name: NLP Model for Visually Challenged/illiterates\n
+Project Name: NLP Model for Visually Challenged
 Develop an interface/NLP Model in Python for visually challenged 
 people/illiterate people where emails can be sent with attachments based on 
 voice commands
