@@ -25,7 +25,7 @@ record.energy_threshold=5000
 
 print("Natural Language Processing Model for Visually Challenged or illiterates")
 
-
+#Block
 with mic as source:
 
     #Source Language
