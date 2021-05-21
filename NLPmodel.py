@@ -137,8 +137,8 @@ with mic as source:
 
     content_of_the_mail = "Hello " + str(receive_address) + " Please find the attached text file. Thank you!"
 
-    sender_address = 'lightningc20@gmail.com' #From Address
-    sender_password = 'Qwerty@123$'               #Sender Password
+    sender_address = '' #Enter From Address
+    sender_password = ''               #Enter Sender Password
     receiver_address = str(receive_address) #Receiver Address
     message = MIMEMultipart()
     message['From'] = sender_address   
